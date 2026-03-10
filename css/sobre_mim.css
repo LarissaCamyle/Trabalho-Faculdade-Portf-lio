@@ -2,12 +2,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 5rem 1rem;
-
+    padding: 5rem 0rem 0rem 0rem;
 }
 
 .apresentacao img{
-    width: 50rem;
+    width: 55rem;
     height: auto;
 }
 
@@ -77,6 +76,7 @@
 
 .topico_titulo{
     font-family: var(--fonte-silkscreen);
+    font-weight: 300;
     font-size: 20px;
     color: var(--verde)
 }
@@ -108,7 +108,9 @@
     gap: 1rem;
     width: 15rem;
     height: 5rem;
-    border: 1px solid var(--verde)
+    border: 1px solid var(--verde);
+    font-family: var(--fonte-silkscreen);
+    font-size: 18px;
 }
 
 .caixa_de_habilidade:hover{
@@ -154,7 +156,9 @@
     gap: 1rem;
     width: 15rem;
     height: 5rem;
-    border: 1px solid var(--roxo)
+    border: 1px solid var(--roxo);
+    font-family: var(--fonte-silkscreen);
+    font-size: 18px;
 }
 
 .caixa_de_hobbies:hover{
