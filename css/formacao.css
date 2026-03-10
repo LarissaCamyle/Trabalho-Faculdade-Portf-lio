@@ -1,0 +1,106 @@
+.formacao{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: var(--fonte-montserrat);
+}
+
+.formacao_conteudo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 2rem;
+}
+
+.formacao_e_certificados h1, .idioma_conhecimentos h1{
+    font-family: var(--fonte-lexend);
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    width: 100%;
+    padding: 1rem;
+}
+
+.formacao_e_certificados{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 35rem;
+    gap: 3rem;
+}
+
+.formacao_educacional{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+}
+
+.formacao_educacional h1, .certificados h1{
+    color: var(--verde);
+}
+
+.formacao_topico_de_informacao{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: row;
+    gap: 0.5rem;
+    padding: 0.5rem;
+}
+
+.formacao_topico_de_informacao img{
+    width: 1.8rem;
+    height: auto;
+}
+
+.formacao_topico_de_informacao a{
+    text-decoration: underline;
+    font-weight: 500;
+    font-style: italic;
+    color: var(--verde);
+}
+
+.formacao_topico_titulo{
+    display: flex;
+    align-items: start;
+    font-family: var(--fonte-silkscreen);
+    font-weight: 300;
+    font-size: 20px;
+    color: var(--verde);
+    margin: 0.2rem;
+}
+
+.formacao_topico_texto{
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    margin-top: 0.4rem;
+}
+
+.formacao_topico_de_informacao{
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    flex-direction: row;
+}
+
+.formacao_topico_de_informacao .div1{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    flex-direction: row;
+    gap: 0.5rem;
+}
+
+
+
+
+
+
+
+
+

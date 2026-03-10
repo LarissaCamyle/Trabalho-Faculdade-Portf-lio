@@ -2,7 +2,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 7rem 0rem 0rem 0rem;
+    padding: 8rem 0rem 0rem 0rem;
 }
 
 .apresentacao img{
@@ -16,21 +16,22 @@
     align-items: center;
     flex-direction: column;
     font-family: var(--fonte-montserrat);
-
+    width: 100%;
 }
 
 .sobre_mim_texto{
-    width: 40rem;
+    width: 35rem;
     text-align: center;
     padding: 4rem 0rem;
 }
 
 .sobre_mim_info{
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     flex-direction: row;
     margin-top: 2rem;
+    padding: 0rem 5rem;
 }
 
 .sobre_mim_info h1{
@@ -66,15 +67,15 @@
     height: auto;
 }
 
-.topico_de_informacao{
+.sobre_mim_topico_de_informacao{
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items:center;
     flex-direction: row;
     gap: 0.5rem;
 }
 
-.topico_titulo{
+.sobre_mim_topico_titulo{
     font-family: var(--fonte-silkscreen);
     font-weight: 300;
     font-size: 20px;
@@ -94,7 +95,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 40rem;
+    width: 100%;
     flex-direction: row;
     gap: 1rem;
     flex-wrap: wrap;
@@ -142,7 +143,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 40rem;
+    width: 100%;
     flex-direction: row;
     gap: 1rem;
     flex-wrap: wrap;
