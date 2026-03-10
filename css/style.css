@@ -1,0 +1,42 @@
+/* Link das Fontes utilizadas no site (Silkscreen, Righteous, Montserrat, Lexend e Lekton)*/
+@import url('https://fonts.googleapis.com/css2?family=Lekton:ital,wght@0,400;0,700;1,400&family=Lexend:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Righteous&family=Silkscreen:wght@400;700&display=swap');
+/* Importanto outros arquivos css */
+@import url('/css/reset.css');
+@import url('/css/cabecalho.css');
+@import url('/css/sobre_mim.css');
+
+:root{
+    /* cores */
+    --cor-de-fundo: #06070C;
+    --azul: #72AFFF;
+    --roxo: #CCA7FF;
+    --verde: #B9FFFF;
+
+    /* fontes */
+    --fonte-silkscreen: "Silkscreen", sans-serif;
+    --fonte-righteous: "Righteous", sans-serif;
+    --fonte-montserrat: "Montserrat", sans-serif;
+    --fonte-lexend: "Lexend", sans-serif;
+    --fonte-lekton: "Lekton", monospace;
+}
+
+body{
+    background-color: var(--cor-de-fundo);
+    color: white;
+    font-size: 18px;
+}
+
+img{
+    width: 3rem;
+    height: auto;
+}
+
+a:hover{
+    transform: scale(1.1);
+}
+
+.titulo{
+    font-size: 36px;
+    font-family: var(--fonte-silkscreen);
+    color: var(--azul);
+}

@@ -1,0 +1,77 @@
+.apresentacao{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5rem 1rem;
+
+}
+
+.apresentacao img{
+    width: 50rem;
+    height: auto;
+}
+
+.sobre_mim{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: var(--fonte-montserrat);
+
+}
+
+.sobre_mim_texto{
+    width: 40rem;
+    text-align: center;
+    padding: 4rem 0rem;
+}
+
+.sobre_mim_info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.sobre_mim_info h1{
+    font-family: var(--fonte-lexend);
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.informacoes_e_habilidades h1, .habilidades_interpessoais h1{
+    color: var(--verde);
+    padding: 2rem 0rem 2rem 0rem;
+    width: 100%;
+    text-align: center;
+}
+
+.informacoes_e_habilidades, .habilidades_interpessoais{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.informacoes_pessoais{
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+
+
+.informacoes_pessoais img{
+    width: 2rem;
+    height: auto;
+}
+
+.topico_de_informacao{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 0.5rem;
+}

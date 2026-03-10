@@ -1,0 +1,24 @@
+header{
+    background-color: var(--azul);
+    color: var(--cor-de-fundo);
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    padding: 0.6rem 3rem;
+
+    font-family: var(--fonte-righteous);
+    font-size: 20px;
+
+}
+
+header img{
+    width: 16rem;
+    height: auto;
+}
+
+header nav{
+    display: flex;
+    gap: 5rem;
+}
