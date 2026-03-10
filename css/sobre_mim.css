@@ -2,7 +2,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 5rem 0rem 0rem 0rem;
+    padding: 7rem 0rem 0rem 0rem;
 }
 
 .apresentacao img{
@@ -166,6 +166,7 @@
 }
 
 .caixa_de_hobbies img{
-    width: 2.8rem;
+    width: 3.5rem;
+    height: auto;
     padding-left: 1rem;
 }
