@@ -31,6 +31,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: row;
+    margin-top: 2rem;
 }
 
 .sobre_mim_info h1{
@@ -46,7 +47,7 @@
     text-align: center;
 }
 
-.informacoes_e_habilidades, .habilidades_interpessoais{
+.informacoes_e_habilidades{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -61,10 +62,8 @@
     gap: 0.5rem;
 }
 
-
-
 .informacoes_pessoais img{
-    width: 2rem;
+    width: 1.6rem;
     height: auto;
 }
 
@@ -74,4 +73,95 @@
     align-items: center;
     flex-direction: row;
     gap: 0.5rem;
+}
+
+.topico_titulo{
+    font-family: var(--fonte-silkscreen);
+    font-size: 20px;
+    color: var(--verde)
+}
+
+.habilidades_interpessoais{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.caixas_de_habilidades{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40rem;
+    flex-direction: row;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.caixa_de_habilidade{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: row;
+    gap: 1rem;
+    width: 15rem;
+    height: 5rem;
+    border: 1px solid var(--verde)
+}
+
+.caixa_de_habilidade:hover{
+    transform: scale(1.1);
+}
+
+.caixa_de_habilidade img{
+    width: 2.5rem;
+    padding-left: 1rem;
+}
+
+.hobbies_e_interesses{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.hobbies_e_interesses h1{
+    padding: 2rem 0rem 2rem 0rem;
+    width: 100%;
+    text-align: center;
+    color: var(--roxo);
+}
+
+.caixas_de_hobbies{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40rem;
+    flex-direction: row;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.caixa_de_hobbies{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: row;
+    gap: 1rem;
+    width: 15rem;
+    height: 5rem;
+    border: 1px solid var(--roxo)
+}
+
+.caixa_de_hobbies:hover{
+    transform: scale(1.1);
+}
+
+.caixa_de_hobbies img{
+    width: 2.8rem;
+    padding-left: 1rem;
 }
