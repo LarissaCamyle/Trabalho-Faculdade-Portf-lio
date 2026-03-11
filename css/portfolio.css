@@ -97,11 +97,11 @@
 
 .projeto_ferramentas{
     display: flex;
-    justify-content: center;
+    justify-content: start;
     align-items: center;
     flex-direction: row;
     flex-wrap: wrap;
-    gap: 3rem;
+    gap: 1.5rem 3rem;
 }
 
 .projeto_links{
@@ -109,7 +109,22 @@
     justify-content: center;
     align-items: center;
     flex-direction: row;
+    gap: 2rem;
+    padding-top: 1rem;
 }
 
+.projeto_azul_link{
+    background-color: var(--azul);
+}
 
+.projeto_roxo_link{
+    background-color: var(--roxo);
+}
 
+.projeto_links a{
+    padding: 0.8rem 1rem;
+    border-radius: 15px;
+    color: var(--cor-de-fundo);
+    font-family: var(--fonte-montserrat);
+    font-weight: bolder;
+}
