@@ -56,14 +56,60 @@
     gap: 1rem;
 }
 
+.projetos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 3rem;
+}
 
+.projeto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 70%;
+    gap: 2rem;
+}
 
+.projetos img{
+    width: 35rem;
+}
 
+.projeto_conteudo{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    gap: 0.5rem;
+}
 
+.projeto h3{
+    font-family: var(--fonte-lekton);
+}
 
+.projeto p{
+    font-size: 16px;
+    font-family: var(--fonte-montserrat);
+}
 
+.projeto_ferramentas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 3rem;
+}
 
-
+.projeto_links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
 
 
 

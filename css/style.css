@@ -89,6 +89,10 @@ a:hover{
     color: var(--roxo);
 }
 
+.texto_azul{
+    color: var(--azul);
+}
+
 main{
     display: flex;
     flex-direction: column;
