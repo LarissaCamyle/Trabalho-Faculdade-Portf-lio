@@ -82,6 +82,14 @@
         align-items: center;
     }
 
+    .certificados{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 1rem;
+    }
+
     .formacao_topico_de_informacao img{
         width: 1.3rem;
         margin-top: 0.2em;
@@ -91,6 +99,18 @@
         align-items: start;
         width: 80%;
         padding: 0rem;
+        gap: 1rem;
+    }
+
+    .formacao_topico_de_informacao .div2{
+        display: flex;
+        align-items: start;
+        flex-direction: column;
+        gap: 0.2rem;
+    }
+
+    .formacao p, .formacao a{
+        margin-left: 0.2rem;
     }
 }
 
@@ -121,13 +141,23 @@
     border: 1px solid var(--roxo);
     width: 15rem;
     height: 6rem;
-    padding: 0rem 0rem 0rem 1rem;
+    padding: 0rem 1rem;
+}
+
+.topico_idioma img{
+    width: 2.5rem;
+    height: auto;
 }
 
 .topico_idioma:hover{
     transform: scale(1.1);
 }
 
+@media screen and (max-width: 1100px) {
+    .idiomas{
+        flex-wrap: wrap;
+    }
+}
 
 /* CONHECIMENTOS BACK END E FRONT END -------------------------------------------------*/
 

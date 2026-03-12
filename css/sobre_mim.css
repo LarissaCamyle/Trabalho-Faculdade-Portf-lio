@@ -152,7 +152,7 @@
     }
     .caixa_de_habilidade{
         gap: 1rem;
-        width: 11rem;
+        width: 12rem;
         height: 4rem;
     }
     .caixa_de_habilidade img{
@@ -223,7 +223,7 @@
     }
     .caixa_de_hobbies{
         gap: 1rem;
-        width: 11rem;
+        width: 12rem;
         height: 4rem;
     }
 }
