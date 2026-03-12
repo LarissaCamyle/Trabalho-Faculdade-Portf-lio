@@ -67,7 +67,7 @@
     gap: 0.5rem;
 }
 
-@media screen and (max-width: 1100px) {
+@media screen and (max-width: 1200px) {
     .formacao_conteudo{
         flex-direction: column;
         gap: 2rem;
@@ -153,7 +153,7 @@
     transform: scale(1.1);
 }
 
-@media screen and (max-width: 1100px) {
+@media screen and (max-width: 1200px) {
     .idiomas{
         flex-wrap: wrap;
     }
@@ -211,6 +211,48 @@
     margin-left: 2.6rem;
 }
 
+@media screen and (max-width: 1200px) {
+    .conhecimentos{
+        align-items: center;
+        justify-content: center;
+    }
 
+    .conhecimentos_item{
+        width: 70%;
+    }
 
+    .conhecimentos_titulo{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        gap: 1rem;
+    }
+
+    .conhecimento_texto{
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        flex-direction: row;
+        gap: 1rem;
+    }
+
+    .conhecimento_texto h4{
+        display: flex;
+        align-items: start;
+        justify-content: center;
+        margin-top: 0.4rem;
+        font-weight: 300; 
+    }
+
+    .conhecimentos_item img{
+        width: 2rem;
+        height: auto;
+    }
+
+    .conhecimentos_conteudo{
+        margin-left: 2.6rem;
+    }
+
+}
 

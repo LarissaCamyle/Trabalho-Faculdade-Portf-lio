@@ -117,7 +117,7 @@ a:hover, button:hover{
 main{
     display: flex;
     flex-direction: column;
-    gap: 10rem;
+    gap: 7rem;
 }
 
 h1,h2,h3,h4,h5,p{
