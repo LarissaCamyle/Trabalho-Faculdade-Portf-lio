@@ -19,8 +19,6 @@
     height: auto;
 }
 
-
-
 .experiencia_topico{
     display: flex;
     justify-content: center;
@@ -46,6 +44,10 @@
 }
 
 @media screen and (max-width: 1200px) {
+    .portfolio{
+        gap: 2rem;
+    }
+
     .experiencia{
         align-items: center;
         flex-direction: column;
@@ -146,7 +148,6 @@
     color: var(--cor-de-fundo);
     font-family: var(--fonte-montserrat);
     font-weight: bolder;
-    text-wrap:inherit
 }
 
 
@@ -156,55 +157,32 @@
     }
 
     .projeto{
-        display: flex;
-        justify-content: center;
-        align-items: center;
         flex-direction: column;
         width: 70%;
         gap: 2rem;
     }
 
     .projetos img{
-        width: 30rem;
+        width: 100%;
+    }
+}
+
+
+@media screen and (min-width:1000px) and (max-width:1200px) {
+    .projetos{
+        gap: 7rem;
     }
 
-    .projeto_conteudo{
-        display: flex;
-        justify-content: center;
-        align-items: start;
-        justify-content: center;
-        flex-direction: column;
-        gap: 0.5rem;
+    .projeto{
+        width: 90%;
     }
 
-    .projeto_ferramentas{
-        display: flex;
-        justify-content: start;
-        align-items: center;
-        flex-direction: row;
-        flex-wrap: wrap;
-        gap: 1.5rem 3rem;
-    }
-
-    .projeto_links{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: row;
-        gap: 2rem;
-        padding-top: 1rem;
-    }
-
-    .projeto_azul_link{
-        background-color: var(--azul);
-    }
-
-    .projeto_roxo_link{
-        background-color: var(--roxo);
+    .projetos img{
+        width: 35rem;
     }
 
     .projeto_links a{
-        padding: 0.8rem 2rem;
+        padding: 0.8rem 1rem;
         border-radius: 15px;
         color: var(--cor-de-fundo);
         font-family: var(--fonte-montserrat);

@@ -5,7 +5,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-
+    padding: 0rem 1rem;
 }
 
 .formacao_conteudo{
@@ -13,7 +13,6 @@
     justify-content: center;
     align-items: center;
     flex-direction: row;
-    gap: 4rem;
 }
 
 .formacao_e_certificados{
@@ -21,7 +20,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    width: 35rem;
+    width: 30rem;
     gap: 3rem;
 }
 
@@ -67,7 +66,7 @@
     gap: 0.5rem;
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1000px) {
     .formacao_conteudo{
         flex-direction: column;
         gap: 2rem;
@@ -161,7 +160,7 @@
 }
 @media screen and(min-width:600px) and (max-width: 1000px) {
     .topico_idioma{
-        width: 13rem;
+        width: 14rem;
     }
 }
 
@@ -262,4 +261,3 @@
     }
 
 }
-
