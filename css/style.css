@@ -6,6 +6,7 @@
 @import url('/css/formacao.css');
 @import url('/css/portfolio.css');
 @import url('/css/contato.css');
+@import url('/css/rodape.css');
 
 :root{
     /* cores */
@@ -26,6 +27,7 @@ body{
     background-color: var(--cor-de-fundo);
     color: white;
     font-size: 18px;
+    font-family: var(--fonte-montserrat);
 }
 
 img{
@@ -59,6 +61,7 @@ a:hover, button:hover{
     color: var(--azul);
     font-weight: 500;
     text-align: center;
+    margin: 2rem 0rem;
 }
 
 .subtitulo{
