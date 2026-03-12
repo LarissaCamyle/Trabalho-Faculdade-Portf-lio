@@ -87,7 +87,7 @@ a:hover, button:hover{
 
 .texto_montserrat{
     font-family: var(--fonte-montserrat);
-    font-weight: 500;
+    font-weight: 400;
     font-size: 18px;
 }
 
@@ -125,8 +125,36 @@ h1,h2,h3,h4,h5,p{
     padding: 0rem;
 }
 
+@media screen and (max-width: 600px) {
+    body{
+        font-size: 12px;
+    }
+    .titulo{
+        font-size: 20px;
+    }
 
-@media screen and (max-width: 1000px) {
+    .subtitulo{
+        font-size: 16px;
+    }
+
+    .texto_quadriculado_grande{
+        font-size: 16px;
+    }
+
+    .texto_quadriculado_medio{
+        font-size: 14px;
+    }
+
+    .texto_montserrat{
+        font-size: 14px;
+    }
+
+    main{
+        gap: 2rem;
+    }
+}
+
+@media screen and (min-width: 600px)and (max-width: 1000px) {
     body{
         font-size: 14px;
     }

@@ -130,6 +130,7 @@
     justify-content: center;
     flex-direction: row;
     gap: 1rem;
+    flex-wrap: wrap;
 }
 
 .topico_idioma{
@@ -153,11 +154,17 @@
     transform: scale(1.1);
 }
 
-@media screen and (max-width: 1200px) {
-    .idiomas{
-        flex-wrap: wrap;
+@media screen and (max-width: 600px) {
+    .topico_idioma{
+        width: 11rem;
     }
 }
+@media screen and(min-width:600px) and (max-width: 1000px) {
+    .topico_idioma{
+        width: 13rem;
+    }
+}
+
 
 /* CONHECIMENTOS BACK END E FRONT END -------------------------------------------------*/
 
