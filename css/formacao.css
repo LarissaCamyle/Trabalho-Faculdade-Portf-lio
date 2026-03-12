@@ -1,9 +1,11 @@
+/*FORMACAO EDUCACIONAL E CERTIFICADOS -------------------------------------------------*/
+
 .formacao{
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    font-family: var(--fonte-montserrat);
+
 }
 
 .formacao_conteudo{
@@ -30,14 +32,10 @@
     flex-direction: column;
 }
 
-.formacao_educacional h1, .certificados h1{
-    color: var(--verde);
-}
-
 .formacao_topico_de_informacao{
     display: flex;
-    justify-content: center;
     align-items: start;
+    justify-content: start;
     flex-direction: row;
     gap: 0.5rem;
     padding: 0.5rem;
@@ -48,20 +46,9 @@
     height: auto;
 }
 
-.formacao_topico_de_informacao a{
-    text-decoration: underline;
-    font-weight: 500;
-    font-style: italic;
-    color: var(--verde);
-}
-
 .formacao_topico_titulo{
     display: flex;
     align-items: start;
-    font-family: var(--fonte-silkscreen);
-    font-weight: 300;
-    font-size: 20px;
-    color: var(--verde);
     margin: 0.2rem;
 }
 
@@ -70,14 +57,6 @@
     align-items: start;
     justify-content: center;
     margin-top: 0.4rem;
-    font-weight: 300; 
-}
-
-.formacao_topico_de_informacao{
-    display: flex;
-    align-items: start;
-    justify-content: start;
-    flex-direction: row;
 }
 
 .formacao_topico_de_informacao .div1{
@@ -88,16 +67,41 @@
     gap: 0.5rem;
 }
 
+@media screen and (max-width: 1100px) {
+    .formacao_conteudo{
+        flex-direction: column;
+        gap: 2rem;
+    }
+    .formacao_e_certificados{
+        justify-content: center;
+        flex-direction: column;
+        width: 90%;
+    }
+
+    .formacao_educacional{
+        align-items: center;
+    }
+
+    .formacao_topico_de_informacao img{
+        width: 1.3rem;
+        margin-top: 0.2em;
+    }
+
+    .formacao_topico_de_informacao{
+        align-items: start;
+        width: 80%;
+        padding: 0rem;
+    }
+}
+
+/*IDIOMAS -----------------------------------------------------------------------------*/
+
 .idioma_conhecimentos{
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     gap: 2rem;
-}
-
-.idioma_conhecimentos h1{
-    color: var(--roxo)
 }
 
 .idiomas{
@@ -124,17 +128,8 @@
     transform: scale(1.1);
 }
 
-.idioma_topico_titulo{
-    font-family: var(--fonte-silkscreen);
-    font-weight: 500;
-}
 
-.topico_idioma_div2 a{
-    font-style: italic;
-    text-decoration: underline;
-    font-weight: 500;
-    color: var(--roxo)
-}
+/* CONHECIMENTOS BACK END E FRONT END -------------------------------------------------*/
 
 .conhecimentos{
     display: flex;
@@ -175,13 +170,6 @@
     justify-content: center;
     margin-top: 0.4rem;
     font-weight: 300; 
-}
-
-.conhecimentos_titulo h3{
-    font-family: var(--fonte-silkscreen);
-    font-weight: 500;
-    color: var(--roxo);
-    font-size: 22px;
 }
 
 .conhecimentos_item img{

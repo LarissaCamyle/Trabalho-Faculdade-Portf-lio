@@ -76,12 +76,18 @@ a:hover, button:hover{
 .texto_quadriculado_grande{
     font-family: var(--fonte-silkscreen);
     font-weight: 400;
-    font-size: 20px;
+    font-size: 22px;
 }
 
 .texto_quadriculado_medio{
     font-family: var(--fonte-silkscreen);
     font-weight: 400;
+    font-size: 20px;
+}
+
+.texto_montserrat{
+    font-family: var(--fonte-montserrat);
+    font-weight: 500;
     font-size: 18px;
 }
 
@@ -101,6 +107,13 @@ a:hover, button:hover{
     color: var(--cor-de-fundo);
 }
 
+.link{
+    font-family: (var(--fonte-montserrat));
+    text-decoration: underline;
+    font-weight: 500;
+    font-style: italic;
+}
+
 main{
     display: flex;
     flex-direction: column;
@@ -110,4 +123,34 @@ main{
 h1,h2,h3,h4,h5,p{
     margin: 0rem;
     padding: 0rem;
+}
+
+
+@media screen and (max-width: 1000px) {
+    body{
+        font-size: 14px;
+    }
+    .titulo{
+        font-size: 24px;
+    }
+
+    .subtitulo{
+        font-size: 20px;
+    }
+
+    .texto_quadriculado_grande{
+        font-size: 18px;
+    }
+
+    .texto_quadriculado_medio{
+        font-size: 16px;
+    }
+
+    .texto_montserrat{
+        font-size: 16px;
+    }
+
+    main{
+        gap: 5rem;
+    }
 }

@@ -26,3 +26,56 @@ header nav{
     display: flex;
     gap: 5rem;
 }
+
+@media screen and (max-width: 550px) {
+    header{
+        flex-direction: column;
+        padding: 0.5rem 0rem 0.8rem 0rem;
+        font-size: 14px;
+        gap: 1rem;
+    }
+
+    header img{
+        width: 50%;
+    }
+
+    header nav{
+        gap: 1.5rem;
+    }
+}
+
+@media screen and (min-width: 550px) and (max-width: 700px) {
+    header{
+        padding: 0.8rem 1rem 0.8rem 0.5rem;
+        font-size: 16px;
+        gap: 0.5rem;
+    }
+
+    header img{
+        width: 12rem;
+    }
+
+    header nav{
+        display: flex;
+        gap: 0.8rem 1rem;
+        flex-wrap: wrap;
+        justify-content: end;
+    }
+}
+
+@media screen and (min-width: 700px) and (max-width: 1000px) {
+    header{
+        padding: 0.5rem 1rem;
+    }
+
+    header img{
+        width: 14rem;
+    }
+
+    header nav{
+        gap: 2rem;
+    }
+
+}
+
+

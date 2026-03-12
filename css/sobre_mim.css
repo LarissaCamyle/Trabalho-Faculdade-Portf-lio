@@ -1,3 +1,5 @@
+/*SOBRE MIM ----------------------------------------------------------------*/
+
 .apresentacao{
     display: flex;
     justify-content: center;
@@ -33,6 +35,39 @@
     margin-top: 2rem;
     padding: 0rem 5rem;
 }
+
+@media screen and (max-width: 700px) {
+    .sobre_mim_info{
+        flex-direction: column;
+        padding: 0rem 1rem;
+    }
+    .apresentacao img{
+        margin-top: 7%;
+        width: 90%;
+    }
+
+    .sobre_mim_texto{
+        width: 80%;
+    }
+}
+
+@media screen and (min-width: 700px) and (max-width: 1200px){
+    .sobre_mim_info{
+        flex-direction: column;
+        padding: 0rem 1rem;
+    }
+
+    .apresentacao img{
+        width: 75%;
+    }
+
+    .sobre_mim_texto{
+        width: 60%;
+    }
+}
+
+
+/* INFORMACOES E HABILIDADES ---------------------------------------------- */
 
 .informacoes_e_habilidades{
     display: flex;
@@ -102,6 +137,45 @@
     padding-left: 1rem;
 }
 
+@media screen and (max-width: 700px) {
+    .informacoes_pessoais{
+        width: 80%;
+    }
+    .informacoes_pessoais img{
+        width: 1.2rem;
+    }
+    .habilidades_interpessoais{
+        gap: 1rem;
+    }
+    .caixas_de_habilidades{
+        width: 100%;
+    }
+    .caixa_de_habilidade{
+        gap: 1rem;
+        width: 11rem;
+        height: 4rem;
+    }
+    .caixa_de_habilidade img{
+        width: 2rem;
+    }
+}
+
+@media screen and (min-width: 700px) and (max-width: 1100px) {
+    .habilidades_interpessoais{
+        gap: 1rem;
+    }
+    .caixas_de_habilidades{
+        width: 80%;
+    }
+    .caixa_de_habilidade{
+        gap: 0.5rem;
+        width: 13rem;
+        height: 5rem;
+    }
+}
+
+/* HOBBIES E INTERESSES ----------------------------------------------------*/
+
 .hobbies_e_interesses{
     display: flex;
     align-items: center;
@@ -140,4 +214,27 @@
     width: 3.5rem;
     height: auto;
     padding-left: 1rem;
+}
+
+@media screen and (max-width: 700px) {
+
+    .caixas_de_hobbies{
+        width: 100%;
+    }
+    .caixa_de_hobbies{
+        gap: 1rem;
+        width: 11rem;
+        height: 4rem;
+    }
+}
+
+@media screen and (min-width: 700px) and (max-width: 1100px) {
+    .caixas_de_hobbies{
+        width: 80%;
+    }
+    .caixa_de_hobbies{
+        gap: 0.5rem;
+        width: 13rem;
+        height: 5rem;
+    }
 }
