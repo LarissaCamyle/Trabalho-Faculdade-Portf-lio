@@ -19,7 +19,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    width: 30rem;
+    width: 60%;
     gap: 3rem;
 }
 
@@ -28,7 +28,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    width: 30rem;
+    width: 60%;
 }
 
 .contato_item{
@@ -105,6 +105,20 @@
     border-radius: 10px;
 }
 
+@media screen and (max-width: 1000px) {
+    .contato_conteudo{
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
 
+    .contato_informacoes{
+        width: 80%;
+    }
+
+    .contato_formulario{
+        width: 80%;
+    }
+
+}
 
 

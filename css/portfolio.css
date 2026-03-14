@@ -148,6 +148,7 @@
     color: var(--cor-de-fundo);
     font-family: var(--fonte-montserrat);
     font-weight: bolder;
+    text-align: center;
 }
 
 
