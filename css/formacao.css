@@ -48,7 +48,7 @@
 .formacao_topico_titulo{
     display: flex;
     align-items: start;
-    margin: 0.2rem;
+    margin-top: 0.2rem;
 }
 
 .formacao_topico_texto{

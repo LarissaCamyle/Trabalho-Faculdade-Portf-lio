@@ -9,9 +9,18 @@
 
 <body>
 
-    <!--CABECALHO --------------------------------------------------------------------------------------------------------------------->
+    <!--
+    ============================================================================================
+        HEADER / CABEÇALHO
+        Contém o logotipo do site e o menu de navegação
+        que permite acessar as seções da página.
+    ============================================================================================
+    -->
     <header>
+        <!--Logo do site-->
         <img src="/Imagens/logo.png" alt="Um ìcone de um notebook e ao lado escrito Larissa Camyle">
+
+        <!--Menu de navegação principal-->
         <nav>
             <a href="#sobre_mim">Sobre mim</a>
             <a href="#formacao">Formação</a>
@@ -20,15 +29,30 @@
         </nav>
     </header>
 
-    <!--CONTEUDO PRINCIPAL ------------------------------------------------------------------------------------------------------------>
+    <!--CONTEUDO PRINCIPAL -------------------------------------
+    ============================================================================================
+        CONTEÚDO PRINCIPAL
+        Todas as seções principais do portfólio estão
+        organizadas dentro da tag <main>.
+    ============================================================================================
+    -->
     <main>
 
-        <!-- Imagem de apresentação =================================================================================================-->
+        <!--======================================================
+            SEÇÃO DE APRESENTAÇÃO
+            Banner inicial do site com imagem de destaque.
+        ====================================================== -->
         <section class="apresentacao">
+            <!-- Imagem de apresentação do portfólio -->
             <img class="imagem_apresentacao" src="/Imagens/banner_apresentacao.png" alt="Imagem de apresentação">
         </section>
 
-          <!-- Sobre Mim ==============================================================================================================-->
+
+        <!-- ======================================================
+            SEÇÃO SOBRE MIM
+            Apresenta uma descrição pessoal, informações
+            básicas, habilidades interpessoais e hobbies.
+        ====================================================== -->
         <section id="sobre_mim" class="sobre_mim">
             <h1 class="titulo">SOBRE MIM</h1>
             <p class="sobre_mim_texto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam eget commodo lorem. Aliquam id viverra sapien. Proin neque risus, posuere eu bibendum ac, vestibulum et felis. Cras ullamcorper mauris a diam luctus sollicitudin. Nunc suscipit dapibus dapibus. Etiam tempor nibh id mollis tristique. Sed lectus lectus, tempus sed nisl nec</p>
@@ -45,7 +69,7 @@
                         <div class="sobre_mim_topico_de_informacao">
                             <img src="/Imagens/icon_estrela.png" alt="Imagem de uma estrela">
                             <h3 class="texto_quadriculado_grande texto_verde">NOME:</h3>
-                            <p class="sobre_mim_formacao_topico_titulo">larissa Camyle da Silva</p>
+                            <p class="sobre_mim_formacao_topico_titulo">Larissa Camyle da Silva</p>
                         </div>
                         <div class="sobre_mim_topico_de_informacao">
                             <img src="/Imagens/icon_estrela.png" alt="Imagem de uma estrela">
@@ -128,11 +152,17 @@
                     
                     
 
+                </div>
             </div>
 
         </section>
 
-        <!-- Formação ===============================================================================================================-->
+
+        <!-- ======================================================
+            SEÇÃO FORMAÇÃO
+            Apresenta a formação acadêmica, certificados,
+            idiomas e conhecimentos técnicos em programação.
+        ====================================================== -->
         <section id="formacao" class="formacao">
             <h1 class="titulo">FORMAÇÃO</h1>
             
@@ -249,7 +279,7 @@
                                 <h3 class="formacao_topico_titulo texto_quadriculado_medio texto_verde">2025:</h3>
                             </div>
                             <div class="div2">
-                                <h3 class="texto_quadriculado_medio texto_verde formacao_topico_titulo">Python: Aplicando a orientação a objetos</h3>
+                                <h3 class="formacao_topico_titulo texto_montserrat texto_verde">Python: Aplicando a orientação a objetos</h3>
                                 <p class="descricao">ALURA - 6 horas</p>
                                 <a class="link texto_verde" href="https://cursos.alura.com.br/certificate/d556e0a8-ef8c-4bd0-a86a-574e95ebe3f7?lang=pt_BR" target="_blank">Link para o certificado</a>
                             </div>
@@ -344,7 +374,7 @@
                                 </div>
                                 <div class="conhecimento_texto">
                                     <img src="/Imagens/icon_asterisco_2.png" alt="Ícone de asterisco.">
-                                    <h4 class="texto_montserrat">Criação de sites dinamicos para dispositivos como desktop e smartphone</h4>
+                                    <h4 class="texto_montserrat">Criação de sites dinâmicos para dispositivos como desktop e smartphone</h4>
                                 </div>
                             </div>
                         </div>
@@ -401,8 +431,11 @@
         </section>
 
 
-
-        <!-- Portfolio ===============================================================================================================-->
+        <!-- ======================================================
+            SEÇÃO PORTFÓLIO
+            Apresenta experiências profissionais e projetos
+            desenvolvidos durante a formação e carreira.
+        ====================================================== -->
         <section class="portfolio">
             <h1 class="titulo" id="portfolio" >PORTFÓLIO</h1>
             
@@ -480,7 +513,6 @@
                         </div>
                         <div class="projeto_links">
                             <a target="_blank" class="projeto_azul_link" href="https://www.linkedin.com/posts/larissa-camyle-367483203_sistema-de-gerenciamento-de-estoque-activity-7427018924854140929-HkGY?utm_source=share&utm_medium=member_desktop&rcm=ACoAADPcfj8B7mj_rBxoalHERTLzgVbS6gJgFBg" >Acessar Projeto</a>
-                            <a target="_blank" class="projeto_azul_link" href="https://github.com/LarissaCamyle/Atividade-Extensionista" >Acessar GitHub</a>
                         </div>
                     </div>
                     <div class="projeto_imagem">
@@ -669,8 +701,12 @@
 
         </section>
 
-        <!-- Contato =================================================================================================================-->
-        
+
+        <!-- ======================================================
+            SEÇÃO CONTATO
+            Área onde o visitante pode encontrar informações
+            de contato e enviar uma mensagem pelo formulário.
+        ====================================================== -->
         <section class="contato">
             
             <h1 id="contato" class="titulo">CONTATO</h1>
@@ -688,7 +724,7 @@
                     <div class="contato_links">
                         <a target="_blank" href="https://github.com/LarissaCamyle">
                             <img src="/Imagens/Icon_github.png" alt="Ícone GitHub">
-                            Git Hub
+                            GitHub
                         </a>
                         <a target="_blank" href="https://www.linkedin.com/in/larissa-camyle-367483203/">
                             <img src="/Imagens/Icon_linkedin.png" alt="Ícone Linkedin">
@@ -705,11 +741,11 @@
                         <h3 class="texto_quadriculado_grande texto_preto">NOME</h3>
                         <input type="text">
                         <h3 class="texto_quadriculado_grande texto_preto">E-MAIL</h3>
-                        <input type="text">
+                        <input type="emailcri">
                         <h3 class="texto_quadriculado_grande texto_preto">MENSAGEM</h3>
                         <textarea rows="4" cols="40"></textarea>
 
-                        <button class="texto_quadriculado_grande texto_roxo">Enviar</button>
+                        <button id="btn_enviar_formulario" class="texto_quadriculado_grande texto_roxo">Enviar</button>
                     </div>
 
                 </div>
@@ -719,12 +755,19 @@
 
     </main>
 
-    <!-- RODAPE ------------------------------------------------------------------------------------------------------------------------>
+    <!--
+    ============================================================================================
+        FOOTER / RODAPÉ
+        Área final do site que apresenta créditos dos
+        recursos utilizados e informações de direitos
+        autorais do portfólio.
+    ============================================================================================
+    -->
     <footer>
         <p class="texto_preto">Ícones utilizados neste site fornecidos por bibliotecas gratuitas como Flaticon e Icons8.</p>
         <p class="texto_preto">© 2026 Larissa Camyle da Silva. Todos os direitos reservados.</p>
         <p class="texto_preto">Este site e seu conteúdo não podem ser reproduzidos sem autorização.</p>
-        <img src="/Imagens/logo.png" alt="Um ìcone de um notebook e ao lado escrito Larissa Camyle">
+        <img src="/Imagens/logo.png" alt="Um ícone de um notebook e ao lado escrito Larissa Camyle">
     </footer>
 
 </body>
