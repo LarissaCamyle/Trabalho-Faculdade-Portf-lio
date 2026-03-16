@@ -10,12 +10,12 @@
    IMPORTAÇÃO DOS ARQUIVOS CSS DAS SEÇÕES
 ====================================================== */
 
-@import url('css/cabecalho.css');
-@import url('css/sobre_mim.css');
-@import url('css/formacao.css');
-@import url('css/portfolio.css');
-@import url('css/contato.css');
-@import url('css/rodape.css');
+@import url('cabecalho.css');
+@import url('sobre_mim.css');
+@import url('formacao.css');
+@import url('portfolio.css');
+@import url('contato.css');
+@import url('rodape.css');
 
 
 /* ======================================================
