@@ -123,7 +123,7 @@
 }
 
 .projetos img{
-    width: 30rem;
+    width: 38rem;
 }
 
 /* Conteúdo do projeto (texto) */
@@ -198,7 +198,7 @@
 }
 
 
-@media screen and (min-width:1000px) and (max-width:1200px) {
+@media screen and (min-width:1000px) and (max-width:1350px) {
 
     .projetos{
         gap: 7rem;
@@ -209,7 +209,7 @@
     }
 
     .projetos img{
-        width: 35rem;
+        width: 30rem;
     }
 
     .projeto_links a{
