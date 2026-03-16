@@ -1,6 +1,15 @@
+/* ======================================================
+   IMPORTAÇÃO DE FONTES
+====================================================== */
+
 /* Link das Fontes utilizadas no site (Silkscreen, Righteous, Montserrat, Lexend e Lekton)*/
 @import url('https://fonts.googleapis.com/css2?family=Lekton:ital,wght@0,400;0,700;1,400&family=Lexend:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Righteous&family=Silkscreen:wght@400;700&display=swap');
-/* Importanto outros arquivos css */
+
+
+/* ======================================================
+   IMPORTAÇÃO DOS ARQUIVOS CSS DAS SEÇÕES
+====================================================== */
+
 @import url('/css/cabecalho.css');
 @import url('/css/sobre_mim.css');
 @import url('/css/formacao.css');
@@ -8,7 +17,13 @@
 @import url('/css/contato.css');
 @import url('/css/rodape.css');
 
+
+/* ======================================================
+   VARIÁVEIS GLOBAIS
+====================================================== */
+
 :root{
+
     /* cores */
     --cor-de-fundo: #06070C;
     --azul: #72AFFF;
@@ -23,6 +38,18 @@
     --fonte-lekton: "Lekton", monospace;
 }
 
+
+/* ======================================================
+   CONFIGURAÇÕES GERAIS DA PÁGINA
+====================================================== */
+
+html, body {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
 body{
     background-color: var(--cor-de-fundo);
     color: white;
@@ -30,6 +57,15 @@ body{
     font-family: var(--fonte-montserrat);
     overflow-x: hidden;
 }
+
+*{
+    box-sizing: border-box;
+}
+
+
+/* ======================================================
+   ELEMENTOS GLOBAIS
+====================================================== */
 
 img{
     width: 3rem;
@@ -41,20 +77,30 @@ a {
     color: inherit; /* Preserva a cor do elemento pai */
 }
 
-html, body {
-    width: 100%;
-    height: 100%;
-    padding: 0;
-    margin: 0;
-}
-
-*{
-    box-sizing: border-box;
-}
-
 a:hover, button:hover{
     transform: scale(1.1);
 }
+
+h1,h2,h3,h4,h5,p{
+    margin: 0rem;
+    padding: 0rem;
+}
+
+
+/* ======================================================
+   ESTRUTURA PRINCIPAL DO SITE
+====================================================== */
+
+main{
+    display: flex;
+    flex-direction: column;
+    gap: 7rem;
+}
+
+
+/* ======================================================
+   ESTILOS DE TÍTULOS
+====================================================== */
 
 .titulo{
     font-size: 36px;
@@ -74,6 +120,11 @@ a:hover, button:hover{
     font-weight: bold;
 }
 
+
+/* ======================================================
+   CLASSES DE TEXTO
+====================================================== */
+
 .texto_quadriculado_grande{
     font-family: var(--fonte-silkscreen);
     font-weight: 400;
@@ -92,6 +143,11 @@ a:hover, button:hover{
     font-size: 16px;
 }
 
+
+/* ======================================================
+   CORES DE TEXTO
+====================================================== */
+
 .texto_verde{
     color: var(--verde);
 }
@@ -108,6 +164,11 @@ a:hover, button:hover{
     color: var(--cor-de-fundo);
 }
 
+
+/* ======================================================
+   ESTILO DE LINKS
+====================================================== */
+
 .link{
     font-family: var(--fonte-montserrat);
     text-decoration: underline;
@@ -115,21 +176,17 @@ a:hover, button:hover{
     font-style: italic;
 }
 
-main{
-    display: flex;
-    flex-direction: column;
-    gap: 7rem;
-}
 
-h1,h2,h3,h4,h5,p{
-    margin: 0rem;
-    padding: 0rem;
-}
+/* ======================================================
+   RESPONSIVIDADE
+====================================================== */
 
 @media screen and (max-width: 600px) {
+
     body{
         font-size: 14px;
     }
+
     .titulo{
         font-size: 20px;
     }
@@ -153,12 +210,16 @@ h1,h2,h3,h4,h5,p{
     main{
         gap: 2rem;
     }
+
 }
 
+
 @media screen and (min-width: 600px)and (max-width: 1200px) {
+
     body{
         font-size: 16px;
     }
+
     .titulo{
         font-size: 24px;
     }
@@ -182,4 +243,5 @@ h1,h2,h3,h4,h5,p{
     main{
         gap: 5rem;
     }
+
 }

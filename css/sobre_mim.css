@@ -1,4 +1,6 @@
-/*SOBRE MIM ----------------------------------------------------------------*/
+/* ======================================================
+    SOBRE MIM
+====================================================== */
 
 .apresentacao{
     display: flex;
@@ -7,6 +9,7 @@
     padding: 8rem 0rem 0rem 0rem;
 }
 
+/* Imagem de apresentação */
 .apresentacao img{
     width: 55rem;
     height: auto;
@@ -21,12 +24,14 @@
     width: 100%;
 }
 
+/* Texto principal da seção */
 .sobre_mim_texto{
     width: 35rem;
     text-align: center;
     padding: 4rem 0rem;
 }
 
+/* Área que agrupa informações pessoais, habilidades e hobbies */
 .sobre_mim_info{
     display: flex;
     justify-content: space-around;
@@ -36,11 +41,18 @@
     padding: 0rem 5rem;
 }
 
+
+/* ======================================================
+    RESPONSIVIDADE - SOBRE MIM
+====================================================== */
+
 @media screen and (max-width: 700px) {
+
     .sobre_mim_info{
         flex-direction: column;
         padding: 0rem 1rem;
     }
+
     .apresentacao img{
         margin-top: 7%;
         width: 90%;
@@ -49,9 +61,11 @@
     .sobre_mim_texto{
         width: 80%;
     }
+
 }
 
 @media screen and (min-width: 700px) and (max-width: 1200px){
+
     .sobre_mim_info{
         flex-direction: column;
         padding: 0rem 1rem;
@@ -64,10 +78,13 @@
     .sobre_mim_texto{
         width: 60%;
     }
+
 }
 
 
-/* INFORMACOES E HABILIDADES ---------------------------------------------- */
+/* ======================================================
+    INFORMAÇÕES PESSOAIS E HABILIDADES
+====================================================== */
 
 .informacoes_e_habilidades{
     display: flex;
@@ -76,6 +93,7 @@
     flex-direction: column;
 }
 
+/* Lista de informações pessoais */
 .informacoes_pessoais{
     display: flex;
     align-items: start;
@@ -98,6 +116,10 @@
 }
 
 
+/* ======================================================
+    HABILIDADES INTERPESSOAIS
+====================================================== */
+
 .habilidades_interpessoais{
     display: flex;
     align-items: center;
@@ -107,6 +129,7 @@
     flex-wrap: wrap;
 }
 
+/* Container das caixas de habilidades */
 .caixas_de_habilidades{
     display: flex;
     align-items: center;
@@ -117,6 +140,7 @@
     flex-wrap: wrap;
 }
 
+/* Card de habilidade */
 .caixa_de_habilidade{
     display: flex;
     justify-content: start;
@@ -137,44 +161,63 @@
     padding-left: 1rem;
 }
 
+
+/* ======================================================
+    RESPONSIVIDADE - HABILIDADES
+====================================================== */
+
 @media screen and (max-width: 700px) {
+
     .informacoes_pessoais{
         width: 80%;
     }
+
     .informacoes_pessoais img{
         width: 1.2rem;
     }
+
     .habilidades_interpessoais{
         gap: 1rem;
     }
+
     .caixas_de_habilidades{
         width: 100%;
     }
+
     .caixa_de_habilidade{
         gap: 1rem;
         width: 12rem;
         height: 4rem;
     }
+
     .caixa_de_habilidade img{
         width: 2rem;
     }
+
 }
 
 @media screen and (min-width: 700px) and (max-width: 1100px) {
+
     .habilidades_interpessoais{
         gap: 1rem;
     }
+
     .caixas_de_habilidades{
         width: 80%;
     }
+
     .caixa_de_habilidade{
         gap: 0.5rem;
         width: 13rem;
         height: 5rem;
     }
+
 }
 
-/* HOBBIES E INTERESSES ----------------------------------------------------*/
+
+/* ======================================================
+    HOBBIES E INTERESSES
+====================================================== */
 
 .hobbies_e_interesses{
     display: flex;
@@ -185,6 +228,7 @@
     flex-wrap: wrap;
 }
 
+/* Container dos hobbies */
 .caixas_de_hobbies{
     display: flex;
     align-items: center;
@@ -195,6 +239,7 @@
     flex-wrap: wrap;
 }
 
+/* Card de hobby */
 .caixa_de_hobbies{
     display: flex;
     justify-content: start;
@@ -216,25 +261,35 @@
     padding-left: 1rem;
 }
 
+
+/* ======================================================
+    RESPONSIVIDADE - HOBBIES
+====================================================== */
+
 @media screen and (max-width: 700px) {
 
     .caixas_de_hobbies{
         width: 100%;
     }
+
     .caixa_de_hobbies{
         gap: 1rem;
         width: 13rem;
         height: 4rem;
     }
+
 }
 
 @media screen and (min-width: 700px) and (max-width: 1100px) {
+
     .caixas_de_hobbies{
         width: 80%;
     }
+
     .caixa_de_hobbies{
         gap: 0.5rem;
         width: 13rem;
         height: 5rem;
     }
+
 }

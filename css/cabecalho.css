@@ -1,33 +1,51 @@
+/* ======================================================
+    HEADER / CABEÇALHO
+    Contém o logo do site e o menu de navegação principal
+====================================================== */
+
 header{
     background-color: var(--azul);
     color: var(--cor-de-fundo);
 
+    /* Layout do cabeçalho */
     display: flex;
     justify-content: space-between;
     align-items: center;
     flex-direction: row;
+
+    /* Mantém o header fixo no topo da página */
     position: fixed;
     width: 100%;
     top: 0;
     left: 0;
+
     padding: 0.4rem 3rem;
 
     font-family: var(--fonte-righteous);
     font-size: 18px;
-
 }
 
+/* Logo do site */
 header img{
     width: 16rem;
     height: auto;
 }
 
+
+/* Menu de navegação */
 header nav{
     display: flex;
     gap: 5rem;
 }
 
+
+/* ======================================================
+    RESPONSIVIDADE
+====================================================== */
+
+/* Celulares pequenos */
 @media screen and (max-width: 550px) {
+
     header{
         flex-direction: column;
         padding: 0.5rem 0rem 0.8rem 0rem;
@@ -44,7 +62,10 @@ header nav{
     }
 }
 
+
+/* Celulares grandes / tablets pequenos */
 @media screen and (min-width: 550px) and (max-width: 700px) {
+
     header{
         padding: 0.8rem 1rem 0.8rem 0.5rem;
         font-size: 16px;
@@ -63,7 +84,10 @@ header nav{
     }
 }
 
+
+/* Tablets */
 @media screen and (min-width: 700px) and (max-width: 1000px) {
+
     header{
         padding: 0.5rem 1rem;
     }

@@ -1,17 +1,25 @@
+/* ======================================================
+   RODAPÉ / FOOTER
+   Área final do site com créditos e identidade visual
+====================================================== */
+
 footer{
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
     text-align: center;
+
     padding: 2rem 2rem;
     background-color: var(--azul);
     margin-top: 5rem;
+
     font-weight: bold;
     gap: 0.5rem;
 } 
 
 
+/* Logo exibida no rodapé */
 footer img{
     width: 20rem;
     height: auto;
@@ -19,8 +27,14 @@ footer img{
 }
 
 
+/* ======================================================
+    RESPONSIVIDADE
+====================================================== */
+
 @media screen and (max-width: 600px) {
+
     footer img{
         width: 60%;
     }
+
 }

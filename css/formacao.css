@@ -1,4 +1,6 @@
-/*FORMACAO EDUCACIONAL E CERTIFICADOS -------------------------------------------------*/
+/* ======================================================
+    FORMAÇÃO EDUCACIONAL E CERTIFICADOS
+====================================================== */
 
 .formacao{
     display: flex;
@@ -8,6 +10,7 @@
     padding: 0rem 1rem;
 }
 
+/* Container principal do conteúdo da formação */
 .formacao_conteudo{
     display: flex;
     justify-content: center;
@@ -15,6 +18,7 @@
     flex-direction: row;
 }
 
+/* Bloco que agrupa formação e certificados */
 .formacao_e_certificados{
     display: flex;
     justify-content: center;
@@ -24,6 +28,7 @@
     gap: 3rem;
 }
 
+/* Área de formação educacional */
 .formacao_educacional{
     display: flex;
     justify-content: center;
@@ -31,6 +36,7 @@
     flex-direction: column;
 }
 
+/* Cada item de informação (curso, certificado etc.) */
 .formacao_topico_de_informacao{
     display: flex;
     align-items: start;
@@ -45,6 +51,15 @@
     height: auto;
 }
 
+.formacao_topico_de_informacao .div1{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    flex-direction: row;
+    gap: 0.5rem;
+}
+
+/* Título e texto das informações */
 .formacao_topico_titulo{
     display: flex;
     align-items: start;
@@ -58,19 +73,18 @@
     margin-top: 0.4rem;
 }
 
-.formacao_topico_de_informacao .div1{
-    display: flex;
-    align-items: center;
-    justify-content: start;
-    flex-direction: row;
-    gap: 0.5rem;
-}
+
+/* ======================================================
+    RESPONSIVIDADE - FORMAÇÃO
+====================================================== */
 
 @media screen and (max-width: 1000px) {
+
     .formacao_conteudo{
         flex-direction: column;
         gap: 2rem;
     }
+
     .formacao_e_certificados{
         justify-content: center;
         flex-direction: column;
@@ -89,16 +103,16 @@
         gap: 1rem;
     }
 
-    .formacao_topico_de_informacao img{
-        width: 1.3rem;
-        margin-top: 0.2em;
-    }
-
     .formacao_topico_de_informacao{
         align-items: start;
         width: 80%;
         padding: 0rem;
         gap: 1rem;
+    }
+
+    .formacao_topico_de_informacao img{
+        width: 1.3rem;
+        margin-top: 0.2em;
     }
 
     .formacao_topico_de_informacao .div2{
@@ -111,9 +125,13 @@
     .formacao p, .formacao a{
         margin-left: 0.2rem;
     }
+
 }
 
-/*IDIOMAS -----------------------------------------------------------------------------*/
+
+/* ======================================================
+    IDIOMAS
+====================================================== */
 
 .idioma_conhecimentos{
     display: flex;
@@ -123,6 +141,7 @@
     gap: 2rem;
 }
 
+/* Container dos idiomas */
 .idiomas{
     display: flex;
     align-items: center;
@@ -132,6 +151,7 @@
     flex-wrap: wrap;
 }
 
+/* Card de idioma */
 .topico_idioma{
     display: flex;
     justify-content: center;
@@ -153,19 +173,30 @@
     transform: scale(1.1);
 }
 
+/* ======================================================
+    RESPONSIVIDADE - DOS CARDS DE IDIOMA
+====================================================== */
+
 @media screen and (max-width: 600px) {
+
     .topico_idioma{
         width: 11rem;
     }
+
 }
+
 @media screen and(min-width:600px) and (max-width: 1000px) {
+
     .topico_idioma{
         width: 14rem;
     }
+
 }
 
 
-/* CONHECIMENTOS BACK END E FRONT END -------------------------------------------------*/
+/* ======================================================
+    CONHECIMENTOS (BACK-END / FRONT-END)
+====================================================== */
 
 .conhecimentos{
     display: flex;
@@ -175,6 +206,7 @@
     gap: 2rem;
 }
 
+/* Cada bloco de conhecimento */
 .conhecimentos_item{
     display: flex;
     justify-content: center;
@@ -184,6 +216,7 @@
     gap: 0.3rem;
 }
 
+/* Título da categoria (ex: Front-end, Back-end) */
 .conhecimentos_titulo{
     display: flex;
     justify-content: center;
@@ -192,6 +225,12 @@
     gap: 1rem;
 }
 
+.conhecimentos_item img{
+    width: 2rem;
+    height: auto;
+}
+
+/* Texto de cada tecnologia */
 .conhecimento_texto{
     display: flex;
     justify-content: start;
@@ -208,16 +247,18 @@
     font-weight: 300; 
 }
 
-.conhecimentos_item img{
-    width: 2rem;
-    height: auto;
-}
-
+/* Área onde ficam listadas as tecnologias */
 .conhecimentos_conteudo{
     margin-left: 2.6rem;
 }
 
+
+/* ======================================================
+    RESPONSIVIDADE - CONHECIMENTOS
+====================================================== */
+
 @media screen and (max-width: 1200px) {
+
     .conhecimentos{
         align-items: center;
         justify-content: center;

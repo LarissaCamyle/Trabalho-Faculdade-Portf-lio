@@ -1,3 +1,8 @@
+/* ======================================================
+    SEÇÃO CONTATO
+    Estrutura principal da área de contato do site
+====================================================== */
+
 .contato{
     display: flex;
     justify-content: center;
@@ -5,6 +10,11 @@
     flex-direction: column;
     gap: 3rem;
 }
+
+
+/* ======================================================
+    LAYOUT DO CONTEÚDO (informações + formulário)
+====================================================== */
 
 .contato_conteudo{
     display: flex;
@@ -14,6 +24,8 @@
     gap: 4rem;
 }
 
+
+/* Área com telefone, email e redes sociais */
 .contato_informacoes{
     display: flex;
     justify-content: center;
@@ -23,6 +35,8 @@
     gap: 3rem;
 }
 
+
+/* Área do formulário */
 .contato_formulario{
     display: flex;
     justify-content: center;
@@ -30,6 +44,11 @@
     flex-direction: column;
     width: 60%;
 }
+
+
+/* ======================================================
+    ITENS DE CONTATO
+====================================================== */
 
 .contato_item{
     display: flex;
@@ -47,6 +66,18 @@
 
 .contato p{
     margin-top: 0.3rem;
+}
+
+
+/* ======================================================
+    LINKS DE REDES SOCIAIS
+====================================================== */
+
+.contato_links{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 2rem;
 }
 
 .contato_links a{
@@ -67,12 +98,10 @@
     transform: scale(1.1);
 }
 
-.contato_links{
-    display: flex;
-    align-items: center;
-    flex-direction: row;
-    gap: 2rem;
-}
+
+/* ======================================================
+    FORMULÁRIO
+====================================================== */
 
 .contato_div_formulario{
     display: flex;
@@ -83,14 +112,6 @@
     padding: 2rem;
     border-radius: 10px;
     gap: 0.5rem;
-}
-
-.contato button{
-    margin: 2rem auto 0rem auto;
-    background-color: var(--cor-de-fundo);
-    padding: 0.8rem 1.5rem;
-    border-style: none;
-    border-radius: 10px;
 }
 
 .contato input, .contato textarea{
@@ -105,7 +126,21 @@
     border-radius: 10px;
 }
 
+.contato button{
+    margin: 2rem auto 0rem auto;
+    background-color: var(--cor-de-fundo);
+    padding: 0.8rem 1.5rem;
+    border-style: none;
+    border-radius: 10px;
+}
+
+
+/* ======================================================
+    RESPONSIVIDADE
+====================================================== */
+
 @media screen and (max-width: 1000px) {
+
     .contato_conteudo{
         flex-direction: column;
         flex-wrap: wrap;
@@ -120,5 +155,3 @@
     }
 
 }
-
-
