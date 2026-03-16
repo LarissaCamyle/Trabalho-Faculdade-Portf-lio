@@ -191,6 +191,10 @@
         gap: 2rem;
     }
 
+    .projeto_roxo{
+        flex-direction: column-reverse;
+    }
+
     .projetos img{
         width: 100%;
     }

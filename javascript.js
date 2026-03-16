@@ -50,7 +50,7 @@ const listaElementosProjeto = [
 ]
 
 function TrocaImagens(){
-    //O forEach percorre todos os elementos da lista e realiza a 
+    //O forEach percorre todos os elementos da lista de projetos e realiza a 
     //troca de imagens no site
     listaElementosProjeto.forEach(projeto =>{
         //=========================================================
@@ -66,7 +66,6 @@ function TrocaImagens(){
         //SELECIONA O ELEMENTO HTML REFERENTE AO PROJETO
         //=========================================================
         //cria o nome para selecionar o elemento imagem no html
-        //de acordo com o projeto selecionado
         const nomeElementoImagem = `#imagem_projeto_${numeroProjeto}`;
         //seleciona o elemento imagem no html
         const elementoImgProjeto = document.querySelector(nomeElementoImagem);
@@ -74,13 +73,16 @@ function TrocaImagens(){
         //=========================================================
         //TROCA AS IMAGENS DE ACORDO COM O TOTAL DE IMAGENS 
         //=========================================================
-
+        //variavel de contagem para realizar a troca das imagens
         let contagem = 1;
 
+        //funcao responsavel por repetir a cada 4 segundos
+        //funcao troca a imagem no html
         setInterval(() => {
-            //nome do caminho da imagem de acordo
+            //nome do caminho da imagem de acordo com o projeto
             const nomeLocalImagem = `Imagens/portfolio/projeto${numeroProjeto}_imagem${contagem}.png`
 
+            //a imagem antiga é trocada no projeto pela proxima imagem
             elementoImgProjeto.src = nomeLocalImagem;
 
             //incrementa a contagem
@@ -90,7 +92,7 @@ function TrocaImagens(){
             if(contagem > quantidadeImagens){
                 contagem = 1;
             }
-        }, 1000);// troca as imagens a cada 5 segundos
+        }, 3000);// troca as imagens a cada 4 segundos
 
     })
 }
