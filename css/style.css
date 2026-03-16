@@ -94,7 +94,7 @@ h1,h2,h3,h4,h5,p{
 main{
     display: flex;
     flex-direction: column;
-    gap: 7rem;
+    gap: 5rem;
 }
 
 
@@ -238,10 +238,6 @@ main{
 
     .texto_montserrat{
         font-size: 15px;
-    }
-
-    main{
-        gap: 5rem;
     }
 
 }
