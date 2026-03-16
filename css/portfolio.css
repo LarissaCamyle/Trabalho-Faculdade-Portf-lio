@@ -129,7 +129,6 @@
 /* Conteúdo do projeto (texto) */
 .projeto_conteudo{
     display: flex;
-    justify-content: center;
     align-items: start;
     justify-content: center;
     flex-direction: column;
@@ -222,7 +221,7 @@
         color: var(--cor-de-fundo);
         font-family: var(--fonte-montserrat);
         font-weight: bolder;
-        text-wrap:inherit
+        white-space: normal;
     }
 
 }

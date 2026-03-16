@@ -185,7 +185,7 @@
 
 }
 
-@media screen and(min-width:600px) and (max-width: 1000px) {
+@media screen and (min-width:600px) and (max-width: 1000px) {
 
     .topico_idioma{
         width: 14rem;
