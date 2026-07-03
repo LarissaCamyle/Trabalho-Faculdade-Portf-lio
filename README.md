@@ -43,8 +43,6 @@ Você pode visualizar o projeto através do link:
 
 ➡️ [Acessar Portfólio](#)
 
-*(adicione aqui o link quando o site estiver publicado, por exemplo no Vercel ou GitHub Pages)*
-
 ## 📫 Contato
 
 - GitHub: https://github.com/LarissaCamyle  
